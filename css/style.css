@@ -232,15 +232,9 @@ h5 {
       width: 1300px;
     }
 }
-
-@media (max-width:991px){
-    /* .container {
-        width: 900px;
-      } */
-}
 @media (max-width:768px){
     .container {
-        /* width: 700px; */
+        width: 96%;
       }
     .cards-ul {
         flex-direction: column;
@@ -254,5 +248,10 @@ h5 {
     }
     h5 {
         font-size: 22px;
+    }
+}
+@media (max-width: 576px) {
+    .container {
+        width: 100%;
     }
 }
