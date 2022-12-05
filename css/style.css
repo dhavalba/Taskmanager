@@ -688,6 +688,15 @@ h5 {
   h1 {
     font-size: 4.6rem;
   }
+  .key-benefits {
+    padding-top: 27%;
+  }
+  .why-shape-img-two {
+    width: 63%;
+    left: -34%;
+    top: 197px;
+  }
+ 
 }
 @media (min-width: 1900px) {
   .container {
