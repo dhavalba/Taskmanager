@@ -594,7 +594,7 @@ h5 {
     font-size: 14px;
   }
   .illusion-circles {
-    top: -340px;
+    margin-top: -340px;
   }
 }
 @media (max-width: 1100px) {
