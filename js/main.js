@@ -17,4 +17,5 @@ $( document ).ready(function() {
         scrollbars: false,
         updateHash: false,
       });
+      // $.scrollify.disable()
 });
