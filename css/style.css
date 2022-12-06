@@ -979,4 +979,7 @@ h5 {
     width: 49%;
     transform: rotate(72deg);
   } 
+  .key-fetures-section {
+    height: 100vh;
+  }
 }
