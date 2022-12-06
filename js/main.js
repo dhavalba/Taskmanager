@@ -31,11 +31,11 @@ $( document ).ready(function() {
       // }
       var alterClass = function() {
         var ww = document.body.clientWidth;
-        if (ww < 768) {
+        if (ww < 769) {
           $('section').removeClass('scrollable-section');
           $('#for-scroll').removeClass('scrollable-section');
           $.scrollify.disable()
-        } else if (ww >= 768) {
+        } else if (ww >= 769) {
           $('section').addClass('scrollable-section');
           $('#for-scroll').addClass('scrollable-section');
         };
