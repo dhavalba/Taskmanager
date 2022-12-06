@@ -650,24 +650,33 @@ h5 {
     }
     .taskmanagement-imgs {
       position: relative;
-      top: 0;
       width: 100%;
-      height: 500px;
-      margin-bottom: 30px;
-      margin-top: 20px;
+      margin-bottom: 32%;
+      margin-top: 0;
     }
     .card-one {
-      width: 300px;
-      height: 300px;
+      width: 500px;
+      height: 400px;
+      margin-top: -84px;
     }
+    .illusion-circles {
+      top: -29%;
+    }
+    .shape-grey {
+      left: 27%;
+    }
+    .shape-yellow {
+      left: 12%;
+    }
+   
     .card-two {
-      left: -50px;
-      bottom: 0;
+      left: -10%;
+      bottom: -36%;
     }
     .card-three {
       left: 0%;
       z-index: -4;
-      bottom: -96px;
+      bottom: -34%;
     }
     .card-four {
       right: 0;
@@ -733,7 +742,7 @@ h5 {
       padding-right: 15px;
     }
     .key-benefits__wrapper {
-      margin-top: 20px;
+      margin-top: 35px;
     }
     .why-section {
       margin-top: 10px;
@@ -748,7 +757,7 @@ h5 {
       display: none;
     }
     .why-section .row {
-      padding-bottom: 25px;
+      padding-bottom: 35px;
     }
     .get-better-section {
       width: 100%;
@@ -762,6 +771,29 @@ h5 {
     }
     body {
       overflow: auto !important;
+    }
+    .why-section__details {
+      padding-left: 0;
+      margin-top: 20px;
+    }
+    .key-benefits__list li p {
+      font-size: 16px;
+    }
+    .key-benefits {
+      border-top: 1px solid #ededed;
+      margin-top: 25px;
+    }
+    .why-section {
+      border-top: 1px solid #ededed;
+    }
+    .get-better-section .try-for-free {
+      margin-bottom: 10px;
+    }
+    .card-one[data-aos][data-aos][data-aos-delay="1200"], body[data-aos-delay="1200"] [data-aos] {
+      transition-delay: 0s !important;
+    }
+    .card-two[data-aos-delay] {
+      transition-delay: 0s !important;
     }
 }
 
@@ -804,8 +836,8 @@ h5 {
     display: none;
   }
   .get-better {
-    padding-top: 60px;
-    padding-bottom: 60px;
+    padding-top: 35px;
+    padding-bottom: 35px;
   }
   .why-shape-img-one {
     left: -236px;
@@ -818,10 +850,44 @@ h5 {
   .taskmanagement-imgs {
     display: none;
   }
+  .card-one {
+    width: 300px;
+    height: 300px;
+    margin-top: -84px;
+  }
+  .card-two {
+    left: -13%;
+    bottom: -9%;
+  }
+  .card-three {
+    bottom: -15%;
+    left: 0;
+  }
+  .card-four {
+    right: 15px;
+    top: 0;
+  }
+  .branding-logos ul{
+    margin-top: 20px;
+  }
+  .key-benefits {
+    border-top: 1px solid #ededed;
+    margin-top: 25px;
+  }
+  .why-section {
+    border-top: 1px solid #ededed;
+  }
+  .get-better-section .try-for-free {
+    margin-bottom: 10px;
+  }
+  .illusion-circles {
+    top: 0;
+  }
 }
 @media (max-width: 450px) {
   .illusion-circles {
     margin-top: -228px;
+    top: 0;
   }
 }
 @media (max-width: 400px) {
@@ -835,6 +901,10 @@ h5 {
     top: 4%;
     left: 48%;
     width: 100%;
+  }
+  .why-shape-img-one {
+    left: -191px;
+    top: -19px;
   }
 }
 @media (max-width: 360px) {

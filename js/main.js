@@ -34,8 +34,9 @@ $( document ).ready(function() {
         if (ww < 769) {
           $('section').removeClass('scrollable-section');
           $('#for-scroll').removeClass('scrollable-section');
+         
           $.scrollify.disable()
-        } else if (ww >= 769) {
+        } else if (ww > 769) {
           $('section').addClass('scrollable-section');
           $('#for-scroll').addClass('scrollable-section');
         };
@@ -43,8 +44,5 @@ $( document ).ready(function() {
       $(window).resize(function(){
         alterClass();
       });
-      //Fire it when the page first loads:
       alterClass();
-  
-      
 });
