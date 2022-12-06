@@ -421,7 +421,7 @@ h5 {
   height: 100%;
   display: flex;
   align-items: center;
-  margin-top: 25%;
+  /* margin-top: 25%; */
   flex-direction: column;
 }
 
@@ -889,6 +889,9 @@ h5 {
     margin-top: -228px;
     top: 0;
   }
+  .get-better-section p {
+    font-size: 1.2rem;
+  }
 }
 @media (max-width: 400px) {
   h1 {
@@ -944,7 +947,7 @@ h5 {
     font-size: 4.6rem;
   }
   .key-benefits {
-    padding-top: 27%;
+    padding-top: 22%;
   }
   .why-shape-img-two {
     width: 63%;
