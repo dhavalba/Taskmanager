@@ -588,6 +588,11 @@ h5 {
     font-size: 15px;
   }
 }
+@media (max-width: 1370px) {
+  .key-benefits__wrapper {
+    margin-top: 25%;
+  }
+}
 @media (max-width: 1290px) {
   html {
     font-size: 14px;
@@ -938,6 +943,9 @@ h5 {
   h1 {
     font-size: 3.9rem;
   }
+  .key-benefits {
+    padding-top: 28%;
+  }
 }
 @media (min-width: 1600px) {
   .container {
@@ -982,4 +990,10 @@ h5 {
   .key-fetures-section {
     height: 100vh;
   }
+  .branding-logos {
+    top: -80px;
+    margin-top: 3%;
+    margin-bottom: 3%;
+  }
 }
+
