@@ -587,6 +587,7 @@ h5 {
   html {
     font-size: 15px;
   }
+  
 }
 @media (max-width: 1370px) {
   .key-benefits__wrapper {
@@ -945,6 +946,13 @@ h5 {
   }
   .key-benefits {
     padding-top: 28%;
+  }
+  .why-shape-img-two {
+    width: 63%;
+    position: absolute;
+    left: -34%;
+    /* bottom: 0; */
+    top: 195px;
   }
 }
 @media (min-width: 1600px) {
