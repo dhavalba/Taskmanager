@@ -809,11 +809,26 @@ h5 {
     .key-benefits__list li [data-aos][data-aos][data-aos-delay="500"].aos-animate {
       transition-delay: 0.2s !important;
     } */
+    [data-aos][data-aos][data-aos-delay="600"].aos-animate, body[data-aos-delay="800"] [data-aos].aos-animate {
+      transition-delay: 0.3s !important;
+    }
+    [data-aos][data-aos][data-aos-delay="800"].aos-animate, body[data-aos-delay="800"] [data-aos].aos-animate {
+      transition-delay: 0.4s !important;
+    }
+    [data-aos][data-aos][data-aos-delay="900"].aos-animate, body[data-aos-delay="900"] [data-aos].aos-animate {
+      transition-delay: 0.5s !important;
+    }
     [data-aos][data-aos][data-aos-duration="1000"], body[data-aos-duration="1000"] [data-aos] {
       transition-duration: 0.4s !important;
     }
     [data-aos][data-aos][data-aos-duration="1200"], body[data-aos-duration="1200"] [data-aos] {
-      transition-duration: 0.5s !important;
+      transition-duration: 0.2s !important;
+    }
+    [data-aos][data-aos][data-aos-duration="900"], body[data-aos-duration="1000"] [data-aos] {
+      transition-duration: 0.2s !important;
+    }
+    [data-aos][data-aos][data-aos-duration="1200"], body[data-aos-duration="1200"] [data-aos] {
+      transition-duration: 0.2s !important;
     }
 }
 
