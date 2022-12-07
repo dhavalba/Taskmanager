@@ -1016,7 +1016,10 @@ h5 {
     left: -34%;
     top: 197px;
   }
- 
+  .why-shape-img-one {
+    top: -80px;
+
+  }
 }
 @media (min-width: 1900px) {
   .container {
