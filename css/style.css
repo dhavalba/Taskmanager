@@ -114,6 +114,9 @@ html {
   font-size: 16px;
   scroll-behavior: smooth;
 }
+html, body {
+  overflow-x: hidden;
+}
 a {
   text-decoration: none;
 }
@@ -587,6 +590,9 @@ h5 {
   html {
     font-size: 15px;
   }
+  .illusion-circles {
+    margin-top: -370px;
+  }
   
 }
 @media (max-width: 1370px) {
@@ -724,8 +730,6 @@ h5 {
       width: 100%;
     }
     section {
-      /* overflow-x: hidden;
-      overflow-y: visible; */
       height: auto !important;
       overflow-x: hidden;
     }
@@ -795,18 +799,25 @@ h5 {
     .get-better-section .try-for-free {
       margin-bottom: 10px;
     }
-    .card-one[data-aos][data-aos][data-aos-delay="1200"], body[data-aos-delay="1200"] [data-aos] {
-      transition-delay: 0s !important;
-    }
+   
     .card-two[data-aos-delay] {
       transition-delay: 0s !important;
+    }
+    /* .key-benefits__list li [data-aos][data-aos][data-aos-delay="900"].aos-animate {
+      transition-delay: 0.3s !important;
+    }
+    .key-benefits__list li [data-aos][data-aos][data-aos-delay="500"].aos-animate {
+      transition-delay: 0.2s !important;
+    } */
+    [data-aos][data-aos][data-aos-duration="1000"], body[data-aos-duration="1000"] [data-aos] {
+      transition-duration: 0.4s !important;
+    }
+    [data-aos][data-aos][data-aos-duration="1200"], body[data-aos-duration="1200"] [data-aos] {
+      transition-duration: 0.6s !important;
     }
 }
 
 @media (max-width: 576px) {
-  /* .container {
-    max-width: 540px;
-  } */
   h1 {
     font-size: 3.8rem;
     letter-spacing: -0.53px;
@@ -935,6 +946,11 @@ h5 {
   }
   h1 {
     font-size: 3.8rem;
+  }
+}
+@media (min-width: 1400px) and (max-width: 1450px) {
+  .illusion-circles {
+    margin-top: -350px;
   }
 }
 @media (min-width: 1400px) {
