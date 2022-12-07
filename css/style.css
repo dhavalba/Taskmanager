@@ -977,6 +977,10 @@ h5 {
   .illusion-circles {
     margin-top: -350px;
   }
+  .why-shape-img-two {
+    width: 59%;
+    top: 240px;
+  }
 }
 @media (min-width: 1400px) {
   .container {
@@ -1014,7 +1018,7 @@ h5 {
   .why-shape-img-two {
     width: 63%;
     left: -34%;
-    top: 197px;
+    top: 242px;
   }
   .why-shape-img-one {
     top: -22px;
