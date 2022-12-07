@@ -644,7 +644,16 @@ h5 {
   h2 {
     font-size: 2.9rem;
   }
- 
+  .illusion-circles {
+    margin-top: -262px;
+  }
+  .key-benefits__list li p br{
+    display: none;
+  }
+  .why-section__details p br{
+    display: none;
+  } 
+  
   /* section, .scrollable-section, .why-section {
     height: auto !important;
   } */
@@ -720,9 +729,7 @@ h5 {
     .taskmanagement-imgs {
       /* display: none; */
     }
-    .key-benefits__list li p br{
-      display: none;
-    }
+   
     .key-benefits__list {
       flex-direction: column;
     }
@@ -829,6 +836,9 @@ h5 {
     }
     [data-aos][data-aos][data-aos-duration="1200"], body[data-aos-duration="1200"] [data-aos] {
       transition-duration: 0.2s !important;
+    }
+    .illusion-circles {
+      margin-top: -340px;
     }
 }
 

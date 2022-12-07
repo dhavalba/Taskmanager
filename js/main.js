@@ -17,18 +17,7 @@ $( document ).ready(function() {
         scrollbars: false,
         updateHash: false,
         touchScroll: false,
-        afterResize: function() {
-         
-        },
       });
-      // if ($(window).width() <= 770) {
-      //   $('.branding-logos ul li').removeClass('scrollable-section');
-      //   $('html').removeClass('scrollable-section');
-      //   $.scrollify.destroy();
-      //   $.scrollify.disable()
-      // }else {
-      //   $.scrollify.enable()
-      // }
       var alterClass = function() {
         var ww = document.body.clientWidth;
         if (ww < 769) {
